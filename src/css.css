@@ -1,0 +1,107 @@
+#team-0 {
+    background-color: #333333;
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+}
+
+#team-1 {
+    background-color: #EEEEEE;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#mid {
+    background: linear-gradient(to right, #333333 , #EEEEEE);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 41.66%;
+}
+
+#announcer {
+    display: none;
+    /*display: inline-block;*/
+    position: fixed;
+    width: 600px;
+    left: 20%;
+    top: 50px;
+    height: 550px;
+    z-index: 5;
+    border-radius: 5px;
+    background-color: #333333;
+    border: 2px solid #EEEEEE;
+    opacity: 0.85;
+    color: #FFCC00;
+}
+
+#player-info {
+    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #EEEEEE;
+    position: fixed;
+    width: 600px;
+    left: 20%;
+    bottom: 0;
+    min-height: 50px;
+    max-height: 100px;
+    z-index: 5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #333333;
+    border: 2px solid #EEEEEE;
+    border-bottom: 0;
+}
+
+.player-name {
+    margin-top: 5px;
+    text-decoration: #1b6d85;
+}
+
+.player-name-0 {
+    color: #EEEEEE;
+}
+
+
+.player-name-1 {
+    color: #333333;
+}
+.team-title {
+    width: 100%;
+    font-size: 30px;
+}
+
+.team-title-0 {
+    color: #EEEEEE;
+}
+
+.team-title-1 {
+    color: #333333;
+}
+
+.goal-p {
+    margin-left: 100px;
+    font-size: 36px;
+    color: #FFCC00;
+    font-weight: bold;
+}
+
+.goal-person {
+    margin-left: 100px;
+    font-size: 26px;
+    color: #FFCC00;
+}
+
+.player-image {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
